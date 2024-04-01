@@ -1,0 +1,44 @@
+/* External CSS for UH Sugarland Cafeteria */
+*{
+    margin: 0;
+}
+.wrapper {
+    background-color: rgb(253, 244, 234);
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+header {
+    background: rgb(159, 38, 38);
+    text-align: center;
+    height: 110px;
+    padding: 10px 0;
+}
+.topnav{
+    background-color: rgb(253, 244, 234);
+    overflow: hidden;
+}
+.topnav a{
+    float:center;
+    color: black;
+    padding:16px 30px;
+    font-size:20px;
+}
+.topnav a:hover{
+    background-color: maroon;
+    color:antiquewhite;
+}
+.topnav a.active{
+    background-color: maroon;
+    color:#fff;
+}
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(159, 38, 38);
+    color: #fff;
+}
+footer a{
+    margin-top: 10px;
+    margin-left: 30px;
+}
